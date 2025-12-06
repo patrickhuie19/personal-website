@@ -19,8 +19,8 @@ export default function Home() {
             <div>
               <div className="flex justify-between items-start mb-1">
                 <div>
-                  <h3 className="text-white font-medium">AWS</h3>
-                  <p className="text-gray-400 text-sm">software engineer, AWS cryptography</p>
+                  <h3 className="text-white font-medium">AWS Cryptography</h3>
+                  <p className="text-gray-400 text-sm">software engineer</p>
                 </div>
                 <span className="text-gray-500 text-sm">2021 - 2023</span>
               </div>
@@ -51,20 +51,21 @@ export default function Home() {
         <section>
           <h2 className="text-2xl font-medium text-white mb-8">Projects</h2>
 
-          <div>
-          <a href="https://www.prnewswire.com/news-releases/chainlink-runtime-environment-goes-live-unlocking-institutional-tokenization-at-scale-302604067.html" target="_blank" rel="noopener noreferrer" className="group"></a>  
+          <div className="space-y-6">
+            <div>
+            <a href="https://www.prnewswire.com/news-releases/chainlink-runtime-environment-goes-live-unlocking-institutional-tokenization-at-scale-302604067.html" target="_blank" rel="noopener noreferrer" className="group">
               <h3 className="text-white font-medium mb-1">Chainlink Runtime Environment (CRE)</h3>
               <p className="text-gray-400 text-sm">
-                built and launched developer platform for web2 developers to use web3 capabilities. 
+                built + launched developer platform for web2 developers to use web3 capabilities. 
               </p>
+            </a>
             </div>
           
-          <div className="space-y-6">
             <div>
             <a href="https://aws.amazon.com/iam/roles-anywhere/" target="_blank" rel="noopener noreferrer" className="group">
                 <h3 className="text-white font-medium mb-1 group-hover:text-gray-300 transition-colors">AWS IAM RolesAnywhere</h3>
                 <p className="text-gray-400 text-sm">
-                  built and launched AWS authentication service for on-prem workfloads
+                  built + launched AWS authentication service for on-prem workfloads
                 </p>
               </a>
             </div>
@@ -73,7 +74,7 @@ export default function Home() {
               <a href="https://github.com/BanklessDAO/bounty-board" target="_blank" rel="noopener noreferrer" className="group">
                 <h3 className="text-white font-medium mb-1 group-hover:text-gray-300 transition-colors">Bounty Board</h3>
                 <p className="text-gray-400 text-sm">
-                  built and launched a discord/web job board with bounties for community contributions
+                  built + launched a discord/web job board with bounties for community contributions
                 </p>
               </a>
             </div>
