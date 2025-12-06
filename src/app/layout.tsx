@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto_Serif } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Header from "@/components/Header";
 
@@ -31,6 +32,7 @@ export default function RootLayout({
         <main>
           {children}
         </main>
+        <Analytics />
       </body>
     </html>
   );
