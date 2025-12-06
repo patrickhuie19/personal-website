@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-serif: var(--font-roboto-serif);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-roboto-serif), Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.prose {
+  max-width: none;
+}
+
+.prose h1 {
+  color: var(--foreground);
+}
+
+.prose h2 {
+  color: var(--foreground);
+}
+
+.prose h3 {
+  color: var(--foreground);
+}
+
+.prose p {
+  color: #d1d5db;
+}
+
+.prose a {
+  color: var(--accent);
+}
+
+.prose a:hover {
+  color: #fbbf24;
+}
+
+/* Custom spacing for better readability */
+.prose h1 {
+  margin-top: 3rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.prose h2 {
+  margin-top: 2.5rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.prose h3 {
+  margin-top: 2rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.prose p {
+  margin-bottom: 1.25rem !important;
+}
+
+.prose img {
+  margin: 2rem 0 !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prose pre {
+  margin: 1.5rem 0 !important;
+}
+
+.prose ul, .prose ol {
+  margin: 1.25rem 0 !important;
+}
+
+.prose li {
+  margin: 0.5rem 0 !important;
+}
+
