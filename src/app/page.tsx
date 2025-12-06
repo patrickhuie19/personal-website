@@ -50,29 +50,30 @@ export default function Home() {
 
         <section>
           <h2 className="text-2xl font-medium text-white mb-8">Projects</h2>
+
+          <div>
+          <a href="https://www.prnewswire.com/news-releases/chainlink-runtime-environment-goes-live-unlocking-institutional-tokenization-at-scale-302604067.html" target="_blank" rel="noopener noreferrer" className="group"></a>  
+              <h3 className="text-white font-medium mb-1">Chainlink Runtime Environment (CRE)</h3>
+              <p className="text-gray-400 text-sm">
+                built and launched developer platform for web2 developers to use web3 capabilities. 
+              </p>
+            </div>
           
           <div className="space-y-6">
             <div>
-              <a href="https://aws.amazon.com/iam/roles-anywhere/" target="_blank" rel="noopener noreferrer" className="group">
-                <h3 className="text-white font-medium mb-1 group-hover:text-gray-300 transition-colors">IAM RolesAnywhere</h3>
+            <a href="https://aws.amazon.com/iam/roles-anywhere/" target="_blank" rel="noopener noreferrer" className="group">
+                <h3 className="text-white font-medium mb-1 group-hover:text-gray-300 transition-colors">AWS IAM RolesAnywhere</h3>
                 <p className="text-gray-400 text-sm">
-                  launched AWS service for PKI-based authentication
+                  built and launched AWS authentication service for on-prem workfloads
                 </p>
               </a>
-            </div>
-
-            <div>
-              <h3 className="text-white font-medium mb-1">Chainlink Oracle Infrastructure</h3>
-              <p className="text-gray-400 text-sm">
-                decentralized oracle networks and blockchain systems
-              </p>
             </div>
 
             <div>
               <a href="https://github.com/BanklessDAO/bounty-board" target="_blank" rel="noopener noreferrer" className="group">
                 <h3 className="text-white font-medium mb-1 group-hover:text-gray-300 transition-colors">Bounty Board</h3>
                 <p className="text-gray-400 text-sm">
-                  core contributor to decentralized organization tools
+                  built and launched a discord/web job board with bounties for community contributions
                 </p>
               </a>
             </div>
