@@ -4,9 +4,9 @@ date: "2026-03-14"
 description: "On agents, interfaces, and workflows."
 ---
 
-LLMs are a cheaper intro to automation, but will eventually build themselves out of many exchange roles. 
+LLMs today are used to run automation, but they should be used to build automation.
 
-When it comes to business, I believe in ruthless automation of undifferentiated heavy lifting. 
+I believe in ruthless automation of undifferentiated heavy lifting. 
 
 What are some good examples of this? You ship software, but haven't invested in using a pipeline that deploys your code throughout environments and qa's it automatically at each stage. So you hire DevOps engineers to do this on behalf of your engineers. 
 
