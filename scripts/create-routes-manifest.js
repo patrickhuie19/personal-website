@@ -23,3 +23,4 @@ if (!fs.existsSync(outDir)) {
 fs.writeFileSync(manifestPath, JSON.stringify(routesManifest, null, 2));
 console.log('Created routes-manifest.json for Vercel');
 
+

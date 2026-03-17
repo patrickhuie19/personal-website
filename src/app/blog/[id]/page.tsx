@@ -1,6 +1,7 @@
 import { getPostData, getAllPostIds } from '@/lib/posts'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import { CopyMarkdown } from '@/components/CopyMarkdown'
 
 export async function generateStaticParams() {
   const paths = getAllPostIds()
@@ -29,13 +30,17 @@ export default async function Post({ params }: { params: Promise<{ id: string }>
         <article>
           <header className="mb-8">
             <h1 className="text-2xl font-medium text-white mb-2">{postData.title}</h1>
-            <time className="text-gray-500 text-sm">
-              {new Date(postData.date).toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'short',
-                day: 'numeric',
-              })}
-            </time>
+            <div className="flex items-center gap-3">
+              <time className="text-gray-500 text-sm">
+                {new Date(postData.date).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'short',
+                  day: 'numeric',
+                })}
+              </time>
+              <span className="text-gray-700">·</span>
+              <CopyMarkdown text={postData.markdown} />
+            </div>
           </header>
           
           <div 

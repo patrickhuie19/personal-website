@@ -94,6 +94,11 @@ The site exports to static files and can be hosted on:
 - AWS S3 + CloudFront
 - Any static hosting service
 
+## TODO
+
+- **Password-protected posts**: Gate certain posts behind a password so content isn't readable until authenticated. Tricky with a static site — likely requires build-time encryption with client-side decryption, or moving to server-side rendering.
+- **x402 paywalled posts**: Gate certain posts behind [x402](https://www.x402.org/) so AI agents must submit payment to read article content.
+
 ## Philosophy
 
 This website embodies the principle that good software should be invisible - it just works, providing value without drawing attention to itself. The design prioritizes:

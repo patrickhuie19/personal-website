@@ -13,6 +13,7 @@ export interface PostData {
   date: string
   description?: string
   content: string
+  markdown: string
   slug: string
 }
 
@@ -91,5 +92,6 @@ export async function getPostData(id: string): Promise<PostData> {
     date: matterResult.data.date || '',
     description: matterResult.data.description || '',
     content: contentHtml,
+    markdown: matterResult.content,
   }
 }
