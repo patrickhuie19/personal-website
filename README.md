@@ -97,6 +97,7 @@ The site exports to static files and can be hosted on:
 ## TODO
 
 - **Password-protected posts**: Gate certain posts behind a password so content isn't readable until authenticated. Tricky with a static site — likely requires build-time encryption with client-side decryption, or moving to server-side rendering.
+   - Note: currently the github for this site is public. I'd like to keep that, but could compromise there.
 - **x402 paywalled posts**: Gate certain posts behind [x402](https://www.x402.org/) so AI agents must submit payment to read article content.
 
 ## Philosophy
