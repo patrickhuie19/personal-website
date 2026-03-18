@@ -36,7 +36,7 @@ N95 masks are slightly more complicated to manufacture than a textile, and today
 
 Now imagine an astronaut helmet that provides an environment for you to breathe in with positive pressure to keep out diseases. They're $2.3k a pop currently and include plastics, a hose, filters, battery system.
 
-![Positive Pressure PPE](./assets/PP-PPE.png)
+![Positive Pressure PPE](/assets/PP-PPE.png)
 
 Ok, so maybe each household only gets one. And you only use it when you absolutely need to leave the house, like to flip your neighbor off from behind your fence when he mows the lawn at 6 in the morning. So while a mask can last a few weeks, your apocalyse lungs last about a year. We'll still need several Bn a year of these produced. How many years will that take?
 
@@ -44,6 +44,6 @@ The issue with counting on physical goods for harm reduction is that manufacturi
 
 What about the nuclear anaology? The principles of mutually assured destruction don't apply because the cost of sequencing genomes and making edits to genomes has fallen rapidly. The tools to do it can be acquired by an advanced high school chemsistry lab. It only costs several thousand dollars to assemble horsepox. Meanwhile, it costs a little south of 100M to build a nuclear missile [in the west](https://blog.ucs.org/elliott-negin/how-much-cost-to-create-nuclear-weapon/). Plus, through sanctions and other tight controls, the west have made it very difficult for state actors they don't like to build nuclear missiles. Mutually assured destruction doesn't work when your enemy isn't a world leader who would (generally) like himself and his friends to live another day at the top of the food chain. The potential enemy here is someone with very bad mental health who wants to end it all for everyone.
 
-So then, what are we left with? Essentially, vaccines. But the most powerful vaccines we can think of - ones that are able to prep the body for permutations of diseases we haven't yet discovered, while still leaving the average person healthy and happy.
+So then, what are we left with? Essentially, vaccines. But, if it possible, the most powerful vaccines we can think of - ones that are able to prep the body for permutations of diseases we haven't yet discovered, while still leaving the average person healthy and happy. 
 
-One alternative route is locking down the proliferation of AI, but DeepSeek has already published open sourced models that are powerful enough for an individual evil actor to do quite a bit of damage.
+One alternative route is locking down the proliferation of AI, but that's a non starter. DeepSeek has already published open sourced models that are powerful enough for an individual evil actor to do quite a bit of damage.
