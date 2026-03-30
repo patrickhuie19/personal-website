@@ -36,6 +36,8 @@ Open [http://localhost:3000](http://localhost:3000) to view the site.
 npm run build
 ```
 
+Runs `npm run analyze` first (Python chart generation) unless `VERCEL` or `CI` is set, then Next.js export. **Vercel** skips Python and uses committed files under `public/assets/` and `data/` — after changing `scripts/analysis/`, run `npm run analyze` locally and commit the regenerated SVGs/CSVs before deploy.
+
 Generates a static export in the `out/` directory.
 
 ### Adding Blog Posts
