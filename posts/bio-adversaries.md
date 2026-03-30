@@ -36,7 +36,7 @@ N95 masks are slightly more complicated to manufacture than a textile, and today
 
 Now imagine an astronaut helmet that provides an environment for you to breathe in with positive pressure to keep out diseases. They're $2.3k a pop currently and include plastics, a hose, filters, battery system.
 
-![Positive Pressure PPE](/assets/PP-PPE.png)
+![Positive Pressure PPE](/assets/bio-adversaries/PP-PPE.png)
 
 Ok, so maybe each household only gets one. And you only use it when you absolutely need to leave the house, like to flip your neighbor off from behind your fence when he mows the lawn at 6 in the morning. So while a mask can last a few weeks, your apocalyse lungs last about a year. We'll still need several Bn a year of these produced. How many years will that take?
 

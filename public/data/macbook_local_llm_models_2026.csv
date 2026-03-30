@@ -1,0 +1,9 @@
+model,family,params_b,quant,artifact_gib,context_k,source_url
+Qwen 2.5 7B,general,7,q4_K_M,4.7,32,https://ollama.com/library/qwen2.5/tags
+Qwen 2.5 14B,general,14,q4_K_M,9.0,32,https://ollama.com/library/qwen2.5/tags
+Gemma 3 12B,multimodal,12,q4_K_M,8.1,128,https://ollama.com/library/gemma3/tags
+Gemma 3 27B,multimodal,27,q4_K_M,17.0,128,https://ollama.com/library/gemma3/tags
+Qwen 2.5 32B,general,32,q4_K_M,20.0,32,https://ollama.com/library/qwen2.5/tags
+Qwen 2.5 Coder 14B,code,14,q4_K_M,8.6,32,https://ollama.com/library/qwen2.5-coder/tags
+Qwen 2.5 Coder 32B,code,32,q4_K_M,20.0,32,https://ollama.com/library/qwen2.5-coder/tags
+Llama 3.1 70B,general,70,q4_K_M,43.0,128,https://ollama.com/library/llama3.1/tags

@@ -1,0 +1,5 @@
+# Python deps for scripts/analysis/ (chart generation for the blog)
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.8
+seaborn>=0.13

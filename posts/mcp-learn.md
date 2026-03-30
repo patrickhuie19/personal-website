@@ -15,7 +15,7 @@ I like to think of reasoning models as a probabilistic word generator. Ask Sonne
 
   
 
-![Prompt a Model](/assets/prompt-a-model.png)
+![Prompt a Model](/assets/mcp-learn/prompt-a-model.png)
 
   
 
@@ -29,7 +29,7 @@ POST /v1/completions {prompt: "write me a sentence"}
 
 Context is additional words in a prompt. Essentially, words. As of writing this article, the majority of models can accept 128k tokens in context, or about 100k words. 
 
-![Context in Model](/assets/context-in-models.png)
+![Context in Model](/assets/mcp-learn/context-in-models.png)
 
 There's one main issue with doing this. Copy + pasting is time consuming, and with certain sources, not feasible. If you don't believe me, try to get chatgpt to analyze all eth transactions to a set of wallet addresses.
 
@@ -40,7 +40,7 @@ There's one main issue with doing this. Copy + pasting is time consuming, and wi
 There has to be a better way to do this. Maybe a common interface that inference server consumers could call to programatically access context on a particular thing.
 
 At a high level, we would want to enable something like:
-![Inference Client using MCP Server](/assets/inference-client-mcp.png)
+![Inference Client using MCP Server](/assets/mcp-learn/inference-client-mcp.png)
 
 So: we want clients to be able to ask a server for context.
 
@@ -97,7 +97,7 @@ A 2024 paper finds there is widespread inconsistency in model performance based 
 
 Prompt design screenshot from the above paper on ArXiv: 
 
-![Prompt format impact on LLM performance](/assets/JSON-prompts-paper-methodology..png)
+![Prompt format impact on LLM performance](/assets/mcp-learn/JSON-prompts-paper-methodology..png)
 
 There are clearly inconsistencies, so we can't assume all prompt inputs are created equally. 
 

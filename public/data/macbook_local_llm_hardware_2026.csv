@@ -1,0 +1,9 @@
+machine,tier,memory_gib,bandwidth_gbps,price_aud,price_basis,source_url,price_usd
+MacBook Air M5,Air,16,153,1799,"Apple AU MacBook Air: from A$1,799",https://www.apple.com/au/macbook-air/,1130
+MacBook Air M5,Air,24,153,2099,Apple AU +A$300 memory upgrade from 16GB to 24GB,https://www.apple.com/au/macbook-air/,1320
+MacBook Air M5,Air,32,153,2399,Apple AU +A$600 memory upgrade from 16GB to 32GB,https://www.apple.com/au/macbook-air/,1510
+MacBook Pro 14 M5,Pro,16,153,2699,"Apple AU MacBook Pro 14-inch: from A$2,699",https://www.apple.com/au/macbook-pro/,1700
+MacBook Pro 14 M5,Pro,24,153,3252,"Apple US 14-inch M5 with 24GB unified memory: USD 2,049 list (apple.com, Mar 2026); AUD placeholder; price_usd set to 2049 below",https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m5,2049
+MacBook Pro 16 M5 Pro,Pro,24,307,4299,"Apple AU 16-inch with M5 Pro: from A$4,299",https://www.apple.com/au/macbook-pro/,2710
+MacBook Pro 16 M5 Pro,Pro,48,307,4899,"Apple AU observed 48GB M5 Pro config at A$4,899",https://www.apple.com/au/macbook-pro/,3090
+MacBook Pro 16 M5 Pro,Pro,64,307,5199,Apple AU observed +A$300 from 48GB to 64GB on M5 Pro config,https://www.apple.com/au/macbook-pro/,3280

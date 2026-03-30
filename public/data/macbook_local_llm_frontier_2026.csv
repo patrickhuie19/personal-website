@@ -1,0 +1,23 @@
+machine,memory_gib,bandwidth_gbps,price_usd,scenario,usable_memory_gib,model,params_b,quant,artifact_gib,required_gib,fits
+MacBook Air M5,16,153,1130,idle_only,12.5,Qwen 2.5 Coder 14B,14,q4_K_M,8.6,11.1,True
+MacBook Air M5,16,153,1130,light_dev,10.0,Qwen 2.5 7B,7,q4_K_M,4.7,7.2,True
+MacBook Air M5,24,153,1320,heavy_dev,14.0,Qwen 2.5 Coder 14B,14,q4_K_M,8.6,11.1,True
+MacBook Air M5,24,153,1320,idle_only,20.5,Gemma 3 27B,27,q4_K_M,17.0,19.5,True
+MacBook Air M5,24,153,1320,light_dev,18.0,Qwen 2.5 Coder 14B,14,q4_K_M,8.6,11.1,True
+MacBook Air M5,32,153,1510,heavy_dev,22.0,Gemma 3 27B,27,q4_K_M,17.0,19.5,True
+MacBook Air M5,32,153,1510,idle_only,28.5,Qwen 2.5 Coder 32B,32,q4_K_M,20.0,22.5,True
+MacBook Air M5,32,153,1510,light_dev,26.0,Qwen 2.5 Coder 32B,32,q4_K_M,20.0,22.5,True
+MacBook Pro 14 M5,16,153,1700,idle_only,12.5,Qwen 2.5 Coder 14B,14,q4_K_M,8.6,11.1,True
+MacBook Pro 14 M5,16,153,1700,light_dev,10.0,Qwen 2.5 7B,7,q4_K_M,4.7,7.2,True
+MacBook Pro 14 M5,24,153,2049,heavy_dev,14.0,Qwen 2.5 Coder 14B,14,q4_K_M,8.6,11.1,True
+MacBook Pro 14 M5,24,153,2049,idle_only,20.5,Gemma 3 27B,27,q4_K_M,17.0,19.5,True
+MacBook Pro 14 M5,24,153,2049,light_dev,18.0,Qwen 2.5 Coder 14B,14,q4_K_M,8.6,11.1,True
+MacBook Pro 16 M5 Pro,24,307,2710,heavy_dev,14.0,Qwen 2.5 Coder 14B,14,q4_K_M,8.6,11.1,True
+MacBook Pro 16 M5 Pro,24,307,2710,idle_only,20.5,Gemma 3 27B,27,q4_K_M,17.0,19.5,True
+MacBook Pro 16 M5 Pro,24,307,2710,light_dev,18.0,Qwen 2.5 Coder 14B,14,q4_K_M,8.6,11.1,True
+MacBook Pro 16 M5 Pro,48,307,3090,heavy_dev,38.0,Qwen 2.5 Coder 32B,32,q4_K_M,20.0,22.5,True
+MacBook Pro 16 M5 Pro,48,307,3090,idle_only,44.5,Qwen 2.5 Coder 32B,32,q4_K_M,20.0,22.5,True
+MacBook Pro 16 M5 Pro,48,307,3090,light_dev,42.0,Qwen 2.5 Coder 32B,32,q4_K_M,20.0,22.5,True
+MacBook Pro 16 M5 Pro,64,307,3280,heavy_dev,54.0,Llama 3.1 70B,70,q4_K_M,43.0,45.5,True
+MacBook Pro 16 M5 Pro,64,307,3280,idle_only,60.5,Llama 3.1 70B,70,q4_K_M,43.0,45.5,True
+MacBook Pro 16 M5 Pro,64,307,3280,light_dev,58.0,Llama 3.1 70B,70,q4_K_M,43.0,45.5,True

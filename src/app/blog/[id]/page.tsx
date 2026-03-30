@@ -44,7 +44,7 @@ export default async function Post({ params }: { params: Promise<{ id: string }>
           </header>
           
           <div 
-            className="prose prose-invert max-w-none text-gray-300"
+            className="prose prose-invert max-w-none overflow-x-auto text-gray-300"
             dangerouslySetInnerHTML={{ __html: postData.content }}
           />
         </article>
