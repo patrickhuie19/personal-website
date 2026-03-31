@@ -1,6 +1,6 @@
 ---
 
-## title: "Local AI in the enterprise"
+title: "Local AI in the enterprise"
 date: "2026-03-30"
 description: "Local AI will be a niche market; the SOTA is all that matters... ?"
 
