@@ -57,4 +57,6 @@ Any harness/model router (Helicone, Vertex, etc..) will soon need a strategy for
 
 I, however, do not think that this will grow much beyond a model or two deployed locally. 
 
-Cloud has garnered broad adoption for a reason. Companies are willing to pay a premium for access to hardware if they can pay a variable rate based on usage rather than large step functions in capex for servers they won't get full utilization out of. Running models is really no different, except in this case, the premium of intelligence vs the additional capex is worth a closer look.
+Cloud has garnered broad adoption for a reason. Companies are willing to pay a premium for access to hardware if they can pay a variable rate based on usage rather than large step functions in capex for servers they won't get full utilization out of. 
+
+Running models is really no different, except in this case, the additional capex was already coming down the line. In that light, the premium of intelligence vs already earmarked capex is worth a close look. 
