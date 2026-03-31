@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "npm run analyze && next dev --turbopack",
     "analyze": "bash scripts/analysis/generate-all.sh",
     "build": "npm run analyze && next build && node scripts/create-routes-manifest.js",
     "start": "next start",
